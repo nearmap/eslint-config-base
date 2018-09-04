@@ -1,0 +1,25 @@
+{
+  "name": "@nearmap/eslint-config-base",
+  "version": "0.0.0",
+  "description": "Base eslint configuration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nearmap/eslint-config-base.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Jan Klaas Kollhof <jan@kollhof.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nearmap/eslint-config-base/issues"
+  },
+  "homepage": "https://github.com/nearmap/eslint-config-base#readme",
+  "peerDependencies": {
+    "eslint": ">= 5"
+  }
+}
