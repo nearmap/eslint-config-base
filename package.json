@@ -1,0 +1,43 @@
+{
+  "name": "@nearmap/eslint-config-base",
+  "version": "0.0.0-semantically-released",
+  "description": "Base eslint configuration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint -c index.js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nearmap/eslint-config-base.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Jan Klaas Kollhof <jan@kollhof.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nearmap/eslint-config-base/issues"
+  },
+  "homepage": "https://github.com/nearmap/eslint-config-base#readme",
+  "peerDependencies": {
+    "eslint": ">= 5"
+  },
+  "devDependencies": {
+    "commitizen": "^2.10.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.5.0",
+    "semantic-release": "^15.9.12"
+  },
+  "dependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint-plugin-babel": "^5.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
